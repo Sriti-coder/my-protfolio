@@ -1,0 +1,111 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-area {
+        height: 50vh;
+    }
+    .banner-content {
+        top: 18%;
+    }
+    .banner-img img {
+        top: 10%;
+        width: 40%;
+    }
+    .features-body {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .skill-body {
+        display: block;
+    }
+    .team-area {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .logo img {
+        width: 15%;
+    }
+    .logo span {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .banner {
+        display: block;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .banner-content {
+        top: 16%;
+    }
+    .banner-content h2 {
+        font-size: 40px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .about {
+        display: block;
+        margin-top: 50px;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .about-content {
+        margin-left: 0;
+    }
+    .section-title h3 {
+        font-size: 40px;
+    }
+    .features-body {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section-body {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .skill-body {
+        display: block;
+    }
+    .skill-bars {
+        width: 100%;
+    }
+    .team-area {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact-form-btn {
+        width: 100%;
+    }
+    .copy-content p {
+        font-size: 10px;
+    }
+    span {
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
